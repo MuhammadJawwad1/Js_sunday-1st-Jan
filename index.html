@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var date1 = new Date()
+        var currday=date1.getDay()
+        for(i=2024;i<=2050; i++){
+            var date2=new Date(i,0,1).getDay();
+            if(date2==0){
+                console.log(`Sunday 1st january at ${i}`);
+            }  
+        }
+    </script>
+</body>
+</html>
